@@ -1,12 +1,17 @@
+/*
+/ *Global Layout Setup * /
+* {
+  box-sizing:
+}
+
+body {
+
+}
+
+*/
+
+/* Link Styles */
 img {
   width: 20%;
   height: 20%;
-}
-
-ul {
-  color: blue;
-  list-style-type: none;
-}
-a {
-  color: blue;
 }
