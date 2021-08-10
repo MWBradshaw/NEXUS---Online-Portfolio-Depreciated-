@@ -12,21 +12,49 @@ body {
 
 /* Link Styles */
 img {
-  width: 20%;
-  height: 20%;
   margin: auto 0;
 }
 
-h1.main-heading {
+.main-heading h1 {
   margin: auto 0;
+  text-align: center;
 }
 
-nav ul {
+.main-heading nav ul {
   list-style-type: none;
 }
 
+.main-heading ul li {
+  display:inline-block;
+  padding: 25px;
+  border: solid black 4px;
+}
 
-h2.experience {
+.main-heading ul li:hover {
+  transform: scale(1.1);
+}
+.main-heading ul li a {
+  text-align:center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+
+.resume {
+  text-decoration: none;
+}
+
+
+section.background-box {
+  border: 150px;
+}
+
+/*section.skills {
+
+} */
+
+.skills h2 {
   font-weight:bold;
 }
 
