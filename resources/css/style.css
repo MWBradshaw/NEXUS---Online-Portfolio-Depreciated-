@@ -15,24 +15,37 @@ body {
 
 /* Link Styles */
 #headshot {
-  width: 30%;
-  height: 44%;
+  width: 499px;
+  height: 499px;
   margin: auto 0;
   border: solid white 4px;
-  border-radius: 50%;
+  float: left;
+  padding: 40px 40px 0px 0px;
+}
+
+.main-nav {
+  background-color: brown;
+  /*padding-bottom: -50px; */
 }
 
 .main-heading h1 {
   text-align: center;
 }
 
-.main-heading h1 {
-  text-align: center;
+
+#main-heading-name {
+  margin: 0px 0px 0px 0px;
+  float: left;
+  font-size: 20px;
+  padding: 10px;
+  border: solid black 4px;
 }
+
 
 .main-heading nav ul {
-  width: 450px;
-  margin: auto 0;
+  margin: -6px 0px 0px 0px;
+  padding-left: 850px;
+  width: 600px;
   list-style-type: none;
 }
 
@@ -46,6 +59,7 @@ body {
   transform: scale(1.1);
 }
 .main-heading ul li a {
+  padding: 0px 0px 0px 0px;
   text-align:center;
   text-decoration: none;
   font-size: 20px;
@@ -57,12 +71,28 @@ body {
   text-decoration: none;
 }
 
-
-section.background-box {
-  border: solid black 4px;
-  margin:auto 0;
-  margin-bottom: 100px;
+#aboutme-box-heading {
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 30px;
+  font-size: 35px;
+  font-family: "Roboto", Times, serif;
 }
+
+section.aboutme-box {
+  border: solid black 1px;
+  margin:auto 0;
+  padding: 0px 30px 300px 30px;
+  margin-bottom: 300px;
+}
+
+section.aboutme-box p {
+  padding-top: 15px;
+  padding-left:100px;
+  padding-right:50px;
+  text-align: justify;
+  font-size: 25px;
+}
+
 
 section.skills {
   border: solid black 4px;
@@ -82,18 +112,17 @@ section.skills {
 
 /* Sub-sections */
 
+
 section.programming-languages {
-  float: left;
-  width: 250px;
-  height: 150px;
   border: solid black 4px;
-  padding: 20px;
+  padding: 0px 0px 0px 0px;
   margin: 15px 0px 15px 0px;
 }
 
 .programming-languages p {
   text-align: center;
 }
+
 
 .language-list li{
   list-style-type: none;
@@ -107,29 +136,38 @@ section.programming-languages {
   text-decoration: none;
   border-radius: 15px;
   border: 20px;
-  padding: 7px 9px;
+  padding: 20px 6px 20px 50px;
   margin: 20px;
 }
 
 section.dev-tools {
-  float:left;
   border: solid black 4px;
   padding: 20px;
   margin: 15px 0px 15px 0px;
+}
+
+section.dev-tools p {
+  text-align: center;
 }
 
 section.design {
-  float: left;
   border: solid black 4px;
   padding: 20px;
   margin: 15px 0px 15px 0px;
 }
 
+section.design p {
+  text-align: center;
+}
+
 section.miscellaneous {
-  float:left;
   border: solid black 4px;
   padding: 20px;
   margin: 15px 0px 15px 0px;
+}
+
+section.miscellaneous p {
+  text-align: center;
 }
 
 /*
