@@ -24,13 +24,19 @@ body {
 }
 
 .main-nav {
-  background-color: brown;
-  /*padding-bottom: -50px; */
+  background-color: #333;
+  /* padding-bottom: -50px; */
+}
+
+.main-page-image {
+  margin: 10px 0px 0px 0px;
+  padding: 40px 40px 400px 40px;
+  border: solid black 4px;
 }
 
 .main-heading h1 {
   text-align: center;
-  margin-top: 400px;
+  margin-top: 50px;
 }
 
 
@@ -40,8 +46,12 @@ body {
   font-size: 20px;
   padding: 10px;
   border: solid black 4px;
+  color: white;
 }
 
+.main-nav {
+  position: fixed;
+}
 
 .main-heading nav ul {
   margin: -6px 0px 0px 0px;
@@ -51,18 +61,20 @@ body {
 }
 
 .main-heading ul li {
-  display:inline-block;
   padding: 10px;
   border: solid black 4px;
+  float: left;
 }
 
 .main-heading ul li:hover {
-  transform: scale(1.1);
+  background-color: #111;
 }
 .main-heading ul li a {
   padding: 0px 0px 0px 0px;
   text-align:center;
+  display:inline-block;
   text-decoration: none;
+  color: white;
   font-size: 20px;
 }
 
@@ -125,19 +137,27 @@ section.programming-languages {
 }
 
 
+
 .language-list li{
   list-style-type: none;
-  display: inline-block;
+  display: flex;
   padding-bottom: 20px;
 }
 
+
+.language-list img {
+  width: 20%;
+  margin: 0 auto;
+  height: auto;
+}
+
 .language-list a {
-  background-color: red;
-  color: #ffffff;
+  /* background-color: red; */
+  color: black;
   text-decoration: none;
   border-radius: 15px;
-  border: 20px;
-  padding: 20px 6px 20px 50px;
+  border: solid black 4px;
+  /* padding: 20px 6px 20px 50px; */
   margin: 20px;
 }
 
@@ -182,20 +202,30 @@ section.miscellaneous p {
 
 section.work-experience h2 {
   text-align: center;
+  padding: 50px 50px 100px;
 }
 
 section.work-experience ul {
-  margin: 0px 50px;
+  margin-top: 30px;
+  padding: 0px 0px 0px 0px;
 }
 
 section.work-experience ul li {
   list-style-type: none;
-  padding: 0px 700px 0px 30px;
+  padding: 0px 700px 0px 0px;
 }
 
-section.tab ul li
-{ 
-  text-indent: 40px;
+section.work-experience img {
+  padding-top: -15px;
+  width: 6%;
+  min-width: 6%;
+  height: auto;
+  float: left;
+  justify-content: center;
+}
+
+section div.work-example p {
+
 }
 
 footer {
