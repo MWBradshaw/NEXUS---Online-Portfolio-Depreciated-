@@ -3,25 +3,23 @@
 
 * {
   box-sizing: border-box;
-  /*width:
-  height: */
 }
 
-/*
-body {
 
-}
-*/
+/* body {
+  background-color: 7e8490;
+} */
+
 
 /* Link Styles */
-#headshot {
+/* #headshot {
   width: 499px;
   height: 499px;
   margin: auto 0;
   border: solid white 4px;
   float: left;
   padding: 40px 40px 0px 0px;
-}
+} */
 
 .main-nav {
   background-color: #333;
@@ -97,9 +95,11 @@ body {
 
 #aboutme-box-heading {
   margin-bottom: 0px;
-  padding: 0px 0px 0px 30px;
+  text-align: center;
+  padding: 0px 0px 0px 100px;
   font-size: 35px;
   font-family: 'Cinzel', serif;
+  color: white;
 }
 
 .aboutme-box p {
@@ -108,17 +108,20 @@ body {
 
 section.aboutme-box {
   border: solid black 1px;
-  margin:auto 0;
+  position: relative;
+  width: 100%;
   padding: 0px 30px 300px 30px;
   margin-bottom: 300px;
+  background-color: 1B364B;
 }
 
 section.aboutme-box p {
-  padding-top: 15px;
+  padding-top: -25px;
   padding-left:100px;
   padding-right:50px;
   text-align: justify;
   font-size: 25px;
+  color: white;
 }
 
 
@@ -143,6 +146,7 @@ section.skills {
 
 
 section.programming-languages {
+
   border: solid black 4px;
   padding: 0px 0px 0px 0px;
   margin: 15px 0px 15px 0px;
@@ -152,11 +156,17 @@ section.programming-languages {
   text-align: center;
 }
 
-
+.language-list ul{
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .language-list li{
   list-style-type: none;
-  display: flex;
+  display: inline-flex;
+  justify-content: flex-end;
   padding-bottom: 20px;
 }
 
@@ -167,7 +177,7 @@ section.programming-languages {
   height: auto;
 }
 
-.language-list a {
+.language-list span {
   /* background-color: red; */
   color: black;
   text-decoration: none;
@@ -177,15 +187,7 @@ section.programming-languages {
   margin: 20px;
 }
 
-section.dev-tools {
-  border: solid black 4px;
-  padding: 20px;
-  margin: 15px 0px 15px 0px;
-}
 
-section.dev-tools p {
-  text-align: center;
-}
 
 section.design {
   border: solid black 4px;
