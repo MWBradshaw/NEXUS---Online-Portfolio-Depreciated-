@@ -25,6 +25,9 @@ body {
 
 .main-nav {
   background-color: #333;
+  z-index: 999;
+  top: 0;
+  left: 0;
   /* padding-bottom: -50px; */
 }
 
@@ -36,6 +39,8 @@ body {
 
 .main-heading h1 {
   text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
   margin-top: 50px;
 }
 
@@ -44,9 +49,10 @@ body {
   margin: 0px 0px 0px 0px;
   float: left;
   font-size: 20px;
-  padding: 10px;
-  border: solid black 4px;
+  padding: 15px 10px 15px 10px;
+  /* border: solid black 4px; */
   color: white;
+  font-family: 'Cinzel', serif;
 }
 
 .main-nav {
@@ -61,8 +67,8 @@ body {
 }
 
 .main-heading ul li {
-  padding: 10px;
-  border: solid black 4px;
+  padding: 18px 10px 18px 10px;
+  /* border: solid black 4px; */
   float: left;
 }
 
@@ -75,7 +81,12 @@ body {
   display:inline-block;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+}
+
+.main-heading ul li a:hover {
+  text-decoration: underline;
 }
 
 
@@ -88,7 +99,11 @@ body {
   margin-bottom: 0px;
   padding: 0px 0px 0px 30px;
   font-size: 35px;
-  font-family: "Roboto", Times, serif;
+  font-family: 'Cinzel', serif;
+}
+
+.aboutme-box p {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 section.aboutme-box {
@@ -111,6 +126,7 @@ section.skills {
   border: solid black 4px;
   margin: auto;
   padding:  0px 50px 0px;
+  font-family: 'Cinzel', serif;
 } 
 
 .skills p {
@@ -200,33 +216,97 @@ section.miscellaneous p {
   
 } */
 
-section.work-experience h2 {
+
+#timeline-container-heading
+{
   text-align: center;
-  padding: 50px 50px 100px;
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  margin: 50px 0px;
+  color: #00272b;
+  border-bottom: 1px solid #eee;
 }
 
-section.work-experience ul {
-  margin-top: 30px;
-  padding: 0px 0px 0px 0px;
+.timeline-container > * {
+  font-family: 'Cormorant Garamond', serif;
 }
 
-section.work-experience ul li {
-  list-style-type: none;
-  padding: 0px 700px 0px 0px;
+.timeline-container {
+  max-width: 500px;
+  margin: 0 auto;
+  border-left: 4px solid #222;
+  padding-left: 25px;
 }
 
-section.work-experience img {
-  padding-top: -15px;
-  width: 6%;
-  min-width: 6%;
+
+.timeline-container .event img
+{
+  width: 25%;
   height: auto;
   float: left;
-  justify-content: center;
+  padding: 15px 0px;
 }
 
-section div.work-example p {
-
+.timeline-container .event .timeline-content ul
+{
+  list-style-type: none;
 }
+
+.timeline-container .event {
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  margin: 48px 0;
+  line-height: 2;
+  position: relative;
+  transition: all 500ms;
+}
+
+
+
+.timeline-container .event::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000;
+  position: absolute;
+  left: -36px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  transition: all 500ms;
+}
+
+.timeline-container .event:hover {
+  box-shadow: 1px 6px 16px -1px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-container .event:hover::before {
+  background: red;
+}
+
+.timeline-container .event .event-date {
+  position: absolute;
+  left: -225px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .timeline-container {
+    max-width: 100%;
+    margin-left: 8px;
+  }
+
+  .timeline-container .event .event-date {
+    position: static;
+    margin-bottom: -20px;
+  }
+}
+
+
+
 
 footer {
   background-color: #ffffff;
