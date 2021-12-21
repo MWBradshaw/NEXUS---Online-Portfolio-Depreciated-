@@ -30,6 +30,7 @@ body {
 
 .main-heading h1 {
   text-align: center;
+  margin-top: 400px;
 }
 
 
@@ -188,8 +189,13 @@ section.work-experience ul {
 }
 
 section.work-experience ul li {
-  text-decoration: none;
+  list-style-type: none;
   padding: 0px 700px 0px 30px;
+}
+
+section.tab ul li
+{ 
+  text-indent: 40px;
 }
 
 footer {
