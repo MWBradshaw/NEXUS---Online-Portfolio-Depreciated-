@@ -4,6 +4,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
  /* body {
@@ -59,8 +62,8 @@
 
 .main-heading nav ul {
   margin: -6px 0px 0px 0px;
-  padding-left: 850px;
-  width: 600px;
+  padding-left: 750px;
+  width: 700px;
   list-style-type: none;
 }
 
@@ -185,7 +188,7 @@ section.aboutme-box p {
   /* padding: 0px 0px 0px 100px; */
   font-size: 35px;
   font-family: 'Cinzel', serif;
-  /* color: white; */
+  color: white; 
 }
 
 section.skills {
@@ -216,6 +219,7 @@ section.programming-languages {
 
 .programming-languages p {
   font-size: 25px;
+  color: white;
   text-align: center;
   font-family: 'Cinzel', serif;
 }
@@ -236,8 +240,13 @@ div.language-list {
 
 .language-list span{
   font-size: 15px;
+  color: white;
+  border: solid black 4px;
   font-family: 'Cinzel', serif;
   display: flex;
+  border-radius: 15px;
+  padding: 15px 6px 15px 6px; 
+  margin: 20px; 
   flex-direction: column;
   align-items: center;
 }
@@ -247,18 +256,6 @@ div.language-list {
   margin: 0 auto;
   height: auto;
 }
-
-.language-list span {
-  /* background-color: red; */
-  color: black;
-  text-decoration: none;
-  border-radius: 15px;
-  border: solid black 4px;
-  padding: 15px 6px 15px 6px; 
-  margin: 20px; 
-}
-
-
 
 section.design {
   /* border: solid black 4px; */
@@ -270,6 +267,7 @@ section.design {
 section.design p {
   font-size: 25px;
   text-align: center;
+  color: white;
   font-family: 'Cinzel', serif;
 }
 
@@ -281,6 +279,7 @@ section.miscellaneous {
 
 section.miscellaneous p {
   font-size: 25px;
+  color: white;
   text-align: center;
   font-family: 'Cinzel', serif;
 }
@@ -394,6 +393,12 @@ section.work-experience-container {
 }
 
 
+
+
+section.my-projects{
+
+  
+}
 
 
 footer {
