@@ -165,7 +165,8 @@ section.aboutme-box {
   border: solid black 1px;
   position: relative;
   width: 100%;
-  padding: 0px 30px 300px 30px;
+  padding: 50px 0px 150px 0px;
+  /* padding: 0px 30px 300px 30px; */
   background-color: #18253a;
 }
 
@@ -190,10 +191,10 @@ section.aboutme-box p {
 section.skills {
   border: solid black 4px;
   width: 100%;
-  margin: 250px 0px;
-  padding:  0px 50px 0px;
+  padding: 50px 0px 150px 0px;
+  /* margin: 250px 0px; */
   font-family: 'Cinzel', serif;
-  
+  background-color: #3c648a;
 } 
 
 .skills p {
@@ -297,6 +298,10 @@ section.miscellaneous p {
 
 /* Work Experience Section */
 
+section.work-experience-container {
+  background-color: #18253a;
+  padding: 50px 0px 150px 0px;
+}
 #timeline-container-heading
 {
   text-align: center;
@@ -307,10 +312,6 @@ section.miscellaneous p {
   /* border-bottom: 1px solid #eee; */
 }
 
-section.work-experience-container {
-  background-color: #18253a;
-  padding: 150px 0px;
-}
 
 .timeline-container > * {
   font-family: 'Cormorant Garamond', serif;
