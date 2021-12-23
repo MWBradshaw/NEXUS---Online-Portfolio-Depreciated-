@@ -22,7 +22,7 @@
             <li><a href="#timeline-container-heading">Experience</a></li>
             <li><a href="https://github.com/MWBradshaw" target="_blank">Github</a></li>
             <li class="resume"><a href="resume/Matthew Bradshaw - Resume.pdf" download>My Resume</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#contact-heading">Contact</a></li>
           </ul>
         </nav>
 
@@ -189,12 +189,22 @@
     <script src="myScript.js"></script>
     <footer>
       <hr>
-      <h2 id="contact-me">Contact Information</h2>
-      <p>Interested in reaching out?</p>
-      <p>
+      <h2 id="contact-heading">Contact</h2>
+      <!-- <p>
         <a href="mailto:matthew_bradshaw1234@hotmail.com"
           >matthewbradshaw875@gmail.com</a>
-      </p>
+      </p> -->
+      <div class="contact-form">
+        <p>Interested in reaching out?</p>
+        <form class="contact" action="">
+          <ul>
+            <li><input type="text" name="name" id="fname" placeholder="Name"></li>
+            <li><input type="text" name="email" id="email" placeholder="Email"></li>
+            <li><input type="text" name="subject" id="subject" placeholder="Subject"></li>
+            <li><textarea id="message" placeholder="Message"></li>
+            <input type="submit">
+        </form>
+    </div>
     </footer>
     </body>
 </html>
