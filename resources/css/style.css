@@ -405,18 +405,21 @@ section.my-projects{
 
 
 footer {
-  background-color: #ffffff;
+  background-color: black;
   position:static;
   bottom:0;
   width:100%;
-  height:60px;
+  height:750px;
+
 }
 
 
 #contact-heading{
   font-family: 'Cinzel', serif;
-  scroll-margin-top: 143px;
+  font-size: 32px;
+  padding: 50px 0;
   text-align: center;
+  color: white;
 }
 
 .contact-form{
@@ -426,17 +429,52 @@ footer {
   display: block;
   padding: 0px;
   list-style-type: none;
+  text-align: center;
 }
 
 .contact-form p{
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
+  font-size: 25px;
+  color: white;
 }
 
 input[type=text] {
-  width:auto;
-  height:
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 200px;
+  height: 32px;
+  color: white;
 }
+
+#fname {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 150px;
+  height: 32px;
+  margin-right: 20px;
+  color: white;
+}
+
+#lname {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 150px;
+  height: 32px;
+  color: white;
+}
+
+
+#email {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 320px;
+  height: 32px;
+  color: white;
+}
+
+
+
 
 #subject {
   clear:both;
@@ -446,4 +484,6 @@ input[type=text] {
 {
   resize: none;
   overflow: scroll;
+  width: 320px;
+  height: auto;
 }
