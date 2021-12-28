@@ -152,9 +152,9 @@ html {
 
 /* About Me Section */
 #aboutme-box-heading {
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   text-align: center;
-  /* padding: 0px 0px 0px 100px; */
+  padding: 0px 0px 0px 100px; 
   scroll-margin-top: 143px;
   font-size: 35px;
   font-family: 'Cinzel', serif;
@@ -175,15 +175,39 @@ section.aboutme-box {
   background-color: #18253a;
 }
 
-section.aboutme-box p {
-  padding-top: -25px;
-  padding-left:100px;
-  padding-right:50px;
+section.aboutme-box .aboutme-illustration-block{
+  margin: 0px 150px 0px 0px;
+}
+
+
+section.aboutme-box .aboutme-illustration-block img{
+  /* float: left; */
+  width: 200%;
+  height: auto;
+}
+
+section.aboutme-box .blockform{
+  display: flex;
+  flex-direction: row;
+}
+
+section.aboutme-box .aboutme-description-block{
+  padding: -25px 150px 0px 150px;
   text-align: justify;
-  font-size: 25px;
+}
+
+section.aboutme-box .aboutme-description-block p {
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
   color: white;
 }
 
+
+
+
+
+
+/* Skills Section */
 #skills-box-heading {
   margin-bottom: 100px;
   text-align: center;
@@ -426,13 +450,13 @@ footer {
 
 .contact-form .form-block .contact-illustration-block{
   float: left;
-  height: 378px;
+  height: 400px;
   margin: 0px 240px 0px 250px;
 }
 
 .contact-form .form-block .contact-illustration-block img{
   display: block;
-  width: 90%;
+  width: 95%;
   margin: auto;
   text-align:center;
   /*position: relative;
@@ -443,6 +467,7 @@ footer {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   text-align: center;
+  color: white;
 }
 
 /*
@@ -475,14 +500,26 @@ footer {
   list-style-type: none;
 }
 
-.contact-form p{
+/* .contact-form p{
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
   font-size: 25px;
   color: white;
 }
+*/
 
+.contact-form ul li p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: white;
+}
 
+.contact-form ul li p a{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
 /*input[type=text] {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
@@ -524,7 +561,11 @@ footer {
 }
 */
 
+/* .blockform{
+  display: flex;
+  flex-direction: column;
 
+} */
 
 #email {
   font-family: 'Cormorant Garamond', serif;
@@ -570,5 +611,5 @@ footer {
   color: white;              
   text-align: center;  
   position: relative;
-  top: 10%;                                              
+  top: 15%;                                              
 }
