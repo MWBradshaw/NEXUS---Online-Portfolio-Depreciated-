@@ -197,15 +197,23 @@
         <p>Interested in reaching out?</p>
         <form class="contact" action="">
           <ul>
+            <!-- <fieldset class="form-section-name"> -->
+              <label for="fname">Enter Your Name</label>
+              <li><input type="text" name="name" id="fname" placeholder="John"></li>
+              <!--<li><input type="text" name="name" id="lname" placeholder="Doe"></li> -->
+            <!-- </fieldset> -->
 
-            <li><input type="text" name="name" id="fname" placeholder="John"></li>
-            <li><input type="text" name="name" id="lname" placeholder="Doe"></li>
             <li><input type="text" name="email" id="email" placeholder="john_doe1234@gmail.com"></li>
             <li><input type="text" name="subject" id="subject" placeholder="Subject"></li>
-            <li><textarea id="message" placeholder="Message"></li>
-            <li><input type="submit"></li>
+            <li><textarea id="message" placeholder="Message"></textarea></li>
+            <li><input type="submit" id="submit-button"></li>
         </form>
     </div>
+
+    <div class="copyright-information">
+      <p>&#169; Matthew Bradshaw</p>
+    </div>
+
     </footer>
     </body>
 </html>

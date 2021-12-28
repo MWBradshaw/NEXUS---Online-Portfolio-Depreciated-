@@ -419,14 +419,15 @@ footer {
   font-size: 32px;
   padding: 50px 0;
   text-align: center;
+  margin: 0px ;
   color: white;
 }
 
 .contact-form{
+
 }
 
 .contact-form ul{
-  display: block;
   padding: 0px;
   list-style-type: none;
   text-align: center;
@@ -439,23 +440,26 @@ footer {
   color: white;
 }
 
-input[type=text] {
+/*input[type=text] {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   width: 200px;
   height: 32px;
   color: white;
-}
+} */
 
 #fname {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
-  width: 150px;
+  margin: 0px 0px 10px 0px;
+  /* width: 150px; */
+  width: 320px;
   height: 32px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   color: white;
 }
 
+/*
 #lname {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
@@ -463,11 +467,26 @@ input[type=text] {
   height: 32px;
   color: white;
 }
+*/
+
+/*
+/.contact-form ul fieldset.form-section-name {
+  display: inline-flex;
+  padding: 0px; 
+  margin: 0px 0px 10px 0px;
+  border: none;
+  width: 320px;
+  text-align: center;
+
+}
+*/
+
 
 
 #email {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
+  margin: 0px 0px 10px 0px;
   width: 320px;
   height: 32px;
   color: white;
@@ -477,13 +496,34 @@ input[type=text] {
 
 
 #subject {
-  clear:both;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 320px;
+  height: 32px;
+  margin: 0px 0px 10px 0px;
 }
 
 #message
 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
   resize: none;
   overflow: scroll;
   width: 320px;
   height: auto;
+}
+
+#submit-button
+{
+  font-family: 'Cormorant Garamond', serif;
+  margin: 50px 0px 0px 0px;
+  font-size: 20px;
+}
+
+
+.copyright-information
+{
+  font-family: 'Cormorant Garamond', serif;
+  color: white;              
+  text-align: center;                                                        
 }
