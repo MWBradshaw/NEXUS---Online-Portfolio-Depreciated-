@@ -194,20 +194,31 @@
           >matthewbradshaw875@gmail.com</a>
       </p> -->
       <div class="contact-form">
-        <p>Interested in reaching out?</p>
-        <form class="contact" action="">
-          <ul>
-            <!-- <fieldset class="form-section-name"> -->
-              <label for="fname">Enter Your Name</label>
-              <li><input type="text" name="name" id="fname" placeholder="John"></li>
-              <!--<li><input type="text" name="name" id="lname" placeholder="Doe"></li> -->
-            <!-- </fieldset> -->
+        <!-- <p>Interested in reaching out?</p> -->
+        <div class="form-block">
+          <div class="contact-illustration-block">
+            <img src="resources/images/icons/vector-illustrations/contact-me.png" alt="A corporate meeting">
+            <p>Interested in reaching out or working together?<br>It would be my pleasure to get acquainted<p>
+          </div>
+          <form class="contact" action="">
+            <ul>
+              <!-- <fieldset class="form-section-name"> -->
+              <label class="form-label" for="fname">Name</label>
+              <li><input type="text" name="name" id="fname" placeholder="Enter your name"></li>
+                <!--<li><input type="text" name="name" id="lname" placeholder="Doe"></li> -->
+              <!-- </fieldset> -->
+              <label class="form-label" for="fname">Email</label>
+              <li><input type="text" name="email" id="email" placeholder="Enter your email"></li>
 
-            <li><input type="text" name="email" id="email" placeholder="john_doe1234@gmail.com"></li>
-            <li><input type="text" name="subject" id="subject" placeholder="Subject"></li>
-            <li><textarea id="message" placeholder="Message"></textarea></li>
-            <li><input type="submit" id="submit-button"></li>
-        </form>
+              <label class="form-label" for="fname">Subject</label>
+              <li><input type="text" name="subject" id="subject" placeholder="Subject"></li>
+
+              <label class="form-label" for="fname">Message</label>
+              <li><textarea id="message" placeholder="Message"></textarea></li>
+              <li><input type="submit" id="submit-button"></li>
+            </ul>
+          </form>
+      </div>
     </div>
 
     <div class="copyright-information">
